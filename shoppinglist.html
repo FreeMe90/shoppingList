@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/shoppinglist.css">
+	<script src="http://code.jquery.com/jquery-1.8.2.js"></script>  
+	<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/shoppinglist.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="header">
+			<h1>Shopping List</h1>
+			<p>by James Church</p>
+		</div>
+		<div class="overview">
+			<div class="wrapper">
+				<ul class="buttons">
+					<li>Instructions</li>
+						<div class="instructionsBox">
+							<p>Type your shopping list items into the dash-outlined input box and press <span style="color:red; font-weight:bold">ENTER</span>.</p>
+							<p>Click <span style="color:red; font-weight:bold">RESET</span>	 button to whipe clear your current shopping items.</p>
+							<p>Click and <span style="color:red; font-weight:bold">DRAG</span> shopping items to re-arrange the order.</p>
+							<p>Click the "x" to <span style="color:red; font-weight:bold">REMOVE</span> items.</p>
+							<p>Click the "check" to <span style="color:red; font-weight:bold">STRIKEOUT</span> items.</p>
+						</div>
+					<li class="reset">Reset</li>
+				</ul>		
+			</div>
+		</div>
+		<div class="shoppingList">
+			<input type="text" name"InputBox" placeholder="+ Add Shopping List Item">
+			<ul class="container">
+			</ul>		
+		</div>
+		<div class="footer">
+		</div>
+	</div>
+</body>
+</html>
